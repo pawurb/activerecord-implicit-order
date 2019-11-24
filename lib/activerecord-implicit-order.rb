@@ -1,7 +1,7 @@
-require 'activerecord-uuid-order/version'
-require 'activerecord-uuid-order/core_extensions'
+require 'activerecord-implicit-order/version'
+require 'activerecord-implicit-order/core_extensions'
 
-module ActiveRecordUUIDOrder
+module ActiveRecordImplicitOrder
   def implicit_order_column=(value)
     class_variable_set(:@@implicit_order_column, value)
   end
